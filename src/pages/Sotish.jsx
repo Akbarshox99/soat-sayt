@@ -305,7 +305,7 @@ const Sotish = () => {
                 <img src={labaratorya} alt="" />
               </div>
             </div>
-            <div className="relative my-8">
+            <div className="relative my-8 -ml-20 -mr-[70px]">
               <img src={hira} alt="" />
               <div className="absolute top-0 left-0 flex py-20 px-6">
                 <div className="mx-28">
