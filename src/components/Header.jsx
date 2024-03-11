@@ -10,7 +10,9 @@ const Header = () => {
       <header className={`${styles.container}`}>
         <div>
           <div className="flex justify-between items-center">
+            <Link to='/sotib'>
             <img className="py-8" src={soat} alt="" />
+            </Link>
             <div className="flex space-x-4">
               <a href="https://t.me/usa_7707" target="blank">
                 <svg

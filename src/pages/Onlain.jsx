@@ -181,42 +181,44 @@ const Onlain = () => {
       <div>
         <img src={yonbosh} alt="" />
       </div>
+      <div className="flex justify-between items-center">
+        <h2 className="text-3xl font-semibold">Примеры выкупленных часов</h2>
+        <Link className="border border-black py-2 px-4">Смотреть все</Link>
+      </div>
       <div className="grid grid-cols-4 gap-5 my-10">
-              <div className="border py-3 px-3 shadow-xl rounded-lg">
-                <Link>
-                  <img src={oq} alt="" />
-                  <b className="mb-3 inline-block">Versace</b>
-                  <p className="mb-2 opacity-70">2023 unworn Datejust 41mm</p>
-                  <b>$17,215</b>
-                </Link>
-              </div>
-              <div className="border py-3 px-3 shadow-xl rounded-lg">
-                <Link>
-                  <img src={sariq} alt="" />
-                  <b className="mb-3 inline-block">Versace</b>
-                  <p className="mb-2 opacity-70">V-Code 42mm</p>
-                  <b>$933</b>
-                </Link>
-              </div>
-              <div className="border py-3 px-3 shadow-xl rounded-lg">
-                <Link>
-                  <img src={qora} alt="" />
-                  <b className="mb-3 inline-block">Omega</b>
-                  <p className="mb-2 opacity-70">
-                    unworn Seamaster Co-Axial 42mm
-                  </p>
-                  <b>$4,703</b>
-                </Link>
-              </div>
-              <div className="border py-3 px-3 shadow-xl rounded-lg">
-                <Link>
-                  <img src={image} alt="" />
-                  <b className="mb-3 inline-block">Maurice Lacroix</b>
-                  <p className="opacity-70 mb-2">Rétrograde watch</p>
-                  <b>$7,246</b>
-                </Link>
-              </div>
-            </div>
+        <div className="border py-3 px-3 shadow-xl rounded-lg">
+          <Link>
+            <img src={oq} alt="" />
+            <b className="mb-3 inline-block">Versace</b>
+            <p className="mb-2 opacity-70">2023 unworn Datejust 41mm</p>
+            <b>$17,215</b>
+          </Link>
+        </div>
+        <div className="border py-3 px-3 shadow-xl rounded-lg">
+          <Link>
+            <img src={sariq} alt="" />
+            <b className="mb-3 inline-block">Versace</b>
+            <p className="mb-2 opacity-70">V-Code 42mm</p>
+            <b>$933</b>
+          </Link>
+        </div>
+        <div className="border py-3 px-3 shadow-xl rounded-lg">
+          <Link>
+            <img src={qora} alt="" />
+            <b className="mb-3 inline-block">Omega</b>
+            <p className="mb-2 opacity-70">unworn Seamaster Co-Axial 42mm</p>
+            <b>$4,703</b>
+          </Link>
+        </div>
+        <div className="border py-3 px-3 shadow-xl rounded-lg">
+          <Link>
+            <img src={image} alt="" />
+            <b className="mb-3 inline-block">Maurice Lacroix</b>
+            <p className="opacity-70 mb-2">Rétrograde watch</p>
+            <b>$7,246</b>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
