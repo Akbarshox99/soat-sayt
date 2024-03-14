@@ -38,7 +38,7 @@ const Katalog = () => {
           {/* 2 */}
           <div className="border py-3 px-3 shadow-xl rounded-lg">
             <Link>
-              <img className="mb-10" src={mehanika} alt="" />
+              <img className="mb-10 mx-10" src={mehanika} alt="" />
               <b className="mb-3 inline-block">AUDEMARS PIGUET</b>
               <p className="mb-2 opacity-70">Royal Oak</p>
               <b>$ 18,390</b>
@@ -74,7 +74,7 @@ const Katalog = () => {
           {/* 6 */}
           <div className="border py-3 px-3 shadow-xl rounded-lg">
             <Link>
-              <img src={pushti} alt="" />
+              <img className="mx-14 mb-10 mt-10" src={pushti} alt="" />
               <b className="mb-3 inline-block">Rolex</b>
               <p className="mb-2 opacity-70">2023 unworn Datejust 31mm</p>
               <b>$19,159</b>
@@ -83,7 +83,7 @@ const Katalog = () => {
           {/* 7 */}
           <div className="border py-3 px-3 shadow-xl rounded-lg">
             <Link>
-              <img src={rimraqam} alt="" />
+              <img className="mx-10 mb-10" src={rimraqam} alt="" />
               <b className="mb-3 inline-block">Rolex</b>
               <p className="mb-2 opacity-70">2023 unworn Sea-Dweller Deepsea 44mm</p>
               <b>$20,273</b>
