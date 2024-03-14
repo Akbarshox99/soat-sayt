@@ -93,6 +93,7 @@ const Onlain = () => {
           </div>
         </div>
       </div>
+      <h2 className="text-center text-3xl font-bold my-10">Преимущества</h2>
       <div className="grid grid-cols-3">
         <div>
           <img className="w-[450px]" src={yashil} alt="" />
